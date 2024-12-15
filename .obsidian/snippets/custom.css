@@ -1,0 +1,35 @@
+
+.red-highlight {
+  background: red;
+  padding: 0 5px
+}
+.blue-highlight {
+  background: blue;
+  padding: 0 5px
+}
+.red-circle {
+  border: 1px solid red;
+  border-radius: 1rem;
+  padding: 0 5px;
+}
+
+.markdown-preview-view .m/*arkdown-rendered {
+  background-color: #555;
+/*   width: 100%; */
+  padding: 1rem;
+}*/
+
+.music {
+  background-color: white;
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: 16;
+  gap: 1rem;
+}
+
+.note {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+}
+

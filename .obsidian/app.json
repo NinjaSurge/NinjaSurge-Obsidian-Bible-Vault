@@ -1,0 +1,13 @@
+{
+  "promptDelete": false,
+  "defaultViewMode": "preview",
+  "livePreview": true,
+  "spellcheck": true,
+  "autoConvertHtml": true,
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "dictionary/"
+  ],
+  "vimMode": false,
+  "showLineNumber": true
+}

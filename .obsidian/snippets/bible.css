@@ -1,0 +1,42 @@
+/* a href links to bible definitions */
+.bible a[data-href^="H0"],
+.bible a[data-href^="H1"],
+.bible a[data-href^="H2"],
+.bible a[data-href^="H3"],
+.bible a[data-href^="H4"],
+.bible a[data-href^="H5"],
+.bible a[data-href^="H6"],
+.bible a[data-href^="H7"],
+.bible a[data-href^="H8"],
+.bible a[data-href^="H9"],
+.bible a[data-href^="G0"],
+.bible a[data-href^="G1"],
+.bible a[data-href^="G2"],
+.bible a[data-href^="G3"],
+.bible a[data-href^="G4"],
+.bible a[data-href^="G5"],
+.bible a[data-href^="G6"],
+.bible a[data-href^="G7"],
+.bible a[data-href^="G8"],
+.bible a[data-href^="G9"] {
+  /* font-size:.65em; */
+  font-size: 0.35em;
+  vertical-align: super;
+  text-decoration: none !important;
+  font-family: sans-serif !important;
+  opacity: 77%;
+}
+/* Bible verse paragraphs */
+.bible p {
+  font-family: Lora !important;
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+/* Verse number headings */
+.bible h3 {
+  margin: 0px !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+  display: inline;
+  text-decoration: none;
+}

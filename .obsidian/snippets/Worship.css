@@ -1,0 +1,12 @@
+/**
+ * <span class="cm-inline-code mb-input mb-input-inline" contenteditable="false">
+ *   <div class="mb-input-wrapper mb-input-type-text">
+ *     <input type="text" tabindex="0" placeholder="Text">
+ *   </div>
+ * </span>
+ * /
+
+.mb-input-wrapper .mb-input-type-text > input {
+  padding: 0;
+  background-color: green;
+}

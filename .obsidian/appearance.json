@@ -1,0 +1,19 @@
+{
+  "cssTheme": "ITS Theme",
+  "translucency": false,
+  "accentColor": "",
+  "nativeMenus": false,
+  "theme": "system",
+  "baseFontSize": 15,
+  "enabledCssSnippets": [
+    "lexicon",
+    "custom-admonitions.bee75f",
+    "inline-embedded-links",
+    "custom",
+    "custom-hover",
+    "bible",
+    "Worship"
+  ],
+  "textFontFamily": "",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font"
+}

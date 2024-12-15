@@ -1,0 +1,48 @@
+/* I added this - Code for changing the appearance of 
+block reference embeds */
+
+/* Adjust padding on the embed */
+.markdown-embed .markdown-preview-view { /* the padding */
+    padding: 0px 0px 0px 0px; /* up right down left */
+}
+
+/* Adjusting the link icon in the embed */
+.markdown-embed-link, .file-embed-link {
+    position: absolute;
+    top: 0em;
+    right: -1em;
+    color: #ebe134;
+    cursor: pointer;
+}
+
+/* Removing the top and bottom lines */
+.markdown-preview-view .markdown-embed, .markdown-preview-view .file-embed {
+    border-top: 0px;
+    border-bottom: 0px;
+    padding: 0px 0;
+    margin: 0px 0;
+}
+
+/* Removing duplication of bullets when block referencing a list item
+Parent inside a bullet list */
+li .markdown-embed ul {
+    position: relative;
+    margin-left: 0px;
+    padding-left: 0px; 
+    cursor: alias;
+}
+
+/* Child inside a bullet list */
+li .markdown-embed ul ul   {
+    position: relative;
+    margin-left: 0px;
+    padding-left: 40px; 
+}
+
+/* Task list inside an embed */
+li .markdown-embed li.task-list-item {
+    position: relative;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
